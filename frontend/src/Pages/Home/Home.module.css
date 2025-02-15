@@ -1,0 +1,68 @@
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  background-color: white;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 80px;
+}
+.textSection {
+  flex: 1;
+  padding-right: 20px;
+}
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+.btn {
+  color: #0877ee;
+  box-shadow: lightblue 5px 8px 9px;
+  font-weight: bold;
+  font-size: larger;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+  height: 50px;
+  width: 150px;
+}
+.btn:hover {
+  background-color: #007bff;
+  cursor: pointer;
+  color: white;
+}
+.imageContainer {
+  flex: 0.9;
+  display: flex;
+  justify-content: center;
+}
+.image {
+  width: 120%;
+  height: 250px;
+}
+.timelineContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+.timelineHeading {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 700;
+}

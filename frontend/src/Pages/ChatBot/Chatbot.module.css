@@ -1,0 +1,25 @@
+.botcontainer {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.botcontainer p {
+  margin-top: 15px;
+  font-weight: bold;
+}
+.inputs {
+  border-radius: 8px;
+  border: none;
+  width: 700px;
+}
+.inputbox {
+  display: flex;
+}
+.inputbox button {
+  border-radius: 8px;
+  width: 50px;
+}
